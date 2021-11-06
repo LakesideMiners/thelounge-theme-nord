@@ -1,5 +1,4 @@
 # thelounge-theme-nord
-LAKESIDEMINERS FORK
 
 Nordify your lounge.
 
