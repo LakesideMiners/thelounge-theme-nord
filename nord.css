@@ -208,7 +208,6 @@ body {
     background-color: inherit;
 }
 
-/* Hide close button on channels, it is not used that frequently */
 #sidebar .chan.channel .close {
     display: none;
 }
@@ -376,7 +375,7 @@ body {
 #chat .msg[data-type="nick"] .from::before {
     color: var(--highlight-color);
 }
-
+#chat form.message-search button,
 #chat button.mentions,
 #chat button.menu,
 #viewport .lt,
@@ -386,4 +385,8 @@ body {
 
 .jump-to-input::before {
     line-height: 30px !important;
+}
+#chat form.message-search button {
+    display: flex;
+    color: var(--button-color);
 }
